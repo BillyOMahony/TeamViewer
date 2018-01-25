@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    tools:context="com.example.billy.teamviewer.WikipediaInformationActivity"
+    android:id="@+id/r">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:id="@+id/webCaptionTextView"
+            android:layout_gravity="center_horizontal"
+            android:textStyle="bold"
+            android:textSize="24dp"
+            android:textColor="#FFFFFF"
+            android:textIsSelectable="false"
+            android:textAlignment="center"
+            android:background="@color/liverpoolRed"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp" />
+
+        <WebView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/webView"
+            android:layout_centerHorizontal="true" />
+
+    </LinearLayout>
+
+</RelativeLayout>

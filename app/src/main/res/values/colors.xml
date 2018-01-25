@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#8c0010</color>
+    <color name="colorPrimaryDark">#8c0010</color>
+    <color name="colorAccent">#2f1000</color>
+
+    <color name="liverpoolRed">#8b0010</color>
+    <color name="liverpoolGreen">#1e6464</color>
+    <color name="white">#ffffff</color>
+</resources>

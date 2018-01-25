@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.billy.teamviewer.AdditionalInfoActivity"
+    android:background="@color/liverpoolRed">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#ffffff">
+
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:id="@+id/a_ImgView"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:layout_width="300dp"
+                    android:layout_height="150dp"
+                    android:id="@+id/imageView"
+                    android:layout_marginTop="5dp"
+                    android:layout_alignParentEnd="true"
+                    android:scaleType="fitEnd"
+                    android:src="@drawable/crest" />
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center_vertical"
+                    android:gravity="center"
+                    android:layout_alignTop="@+id/imageView"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentBottom="true">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:text="Name"
+                        android:id="@+id/a_PlayerName"
+                        android:layout_gravity="right"
+                        android:layout_marginRight="5dp"
+                        android:textStyle="bold"
+                        android:textSize="24dp"
+                        android:layout_marginTop="2dp"
+                        android:layout_marginBottom="2dp"
+                        android:textColor="@color/liverpoolGreen" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:text="Number"
+                        android:id="@+id/a_PlayerNumber"
+                        android:layout_gravity="right"
+                        android:layout_marginRight="5dp"
+                        android:textSize="20dp"
+                        android:layout_marginTop="2dp"
+                        android:layout_marginBottom="2dp"
+                        android:textColor="@color/liverpoolGreen" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:text="Pos"
+                        android:id="@+id/a_PlayerPosition"
+                        android:layout_gravity="right"
+                        android:layout_marginRight="5dp"
+                        android:textSize="20dp"
+                        android:layout_marginTop="2dp"
+                        android:layout_marginBottom="2dp"
+                        android:textColor="@color/liverpoolGreen" />
+
+                </LinearLayout>
+            </RelativeLayout>
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:id="@+id/textView5"
+            android:textStyle="bold"
+            android:textSize="24dp"
+            android:textColor="#ffffff"
+            android:background="@color/liverpoolGreen" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Player Information:"
+            android:id="@+id/textView4"
+            android:textStyle="bold"
+            android:layout_marginTop="2dp"
+            android:layout_marginBottom="2dp"
+            android:layout_marginLeft="5dp"
+            android:textSize="24dp"
+            android:textColor="#ffffff" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:id="@+id/textView6"
+            android:textStyle="bold"
+            android:textSize="24dp"
+            android:textColor="#ffffff"
+            android:background="@color/liverpoolGreen" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Date of Birth"
+                android:id="@+id/textView7"
+                android:textSize="20dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:textColor="#ffffff" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Date of Birth"
+                android:id="@+id/a_DateOfBirth"
+                android:textSize="20dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:textColor="#ffffff"
+                android:gravity="right"
+                android:layout_marginRight="5dp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Joined Club On"
+                android:id="@+id/textView8"
+                android:textSize="20dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:textColor="#ffffff" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="CDJ"
+                android:id="@+id/a_ClubJoinDate"
+                android:textSize="20dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:textColor="#ffffff"
+                android:gravity="right"
+                android:layout_marginRight="5dp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nationality"
+                android:id="@+id/textView9"
+                android:textSize="20dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:textColor="#ffffff" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="nat"
+                android:id="@+id/a_Nationality"
+                android:textSize="20dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:textColor="#ffffff"
+                android:gravity="right"
+                android:layout_marginRight="5dp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="View Stats"
+                android:id="@+id/statsButton"
+                android:background="@color/white"
+                android:textSize="20dp"
+                android:textColor="@color/liverpoolRed"
+                android:textStyle="bold"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_alignParentStart="false"
+                android:layout_alignParentEnd="false"
+                android:layout_gravity="bottom"
+                android:layout_marginBottom="10dp" />
+        </FrameLayout>
+
+    </LinearLayout>
+</RelativeLayout>
